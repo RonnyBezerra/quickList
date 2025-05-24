@@ -162,7 +162,10 @@ main {
             align-items: center;
             cursor: pointer;
 
-            
+            img {
+                width: 1.6rem;
+                opacity: .7;
+            }
         }
     }
 }
