@@ -32,7 +32,7 @@ function showItemsList() {
                     <label for="item-${index}">${item.name}</label>
                 </div>
 
-                <button onclick="removeItem('${item.Name}')">
+                <button onclick="removeItem('${item.name}')">
                     <img src="./assets/trash-icon.svg" alt="trash-icon">
                 </button>
             </div>
@@ -55,4 +55,8 @@ function removeItem(itemName) {
     }
 
     showItemsList()
+}
+
+function addHideWarningClass() {
+    document.querySelector(".warning").classList.add("hide-warning")
 }
